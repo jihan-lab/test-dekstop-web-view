@@ -8,13 +8,13 @@ import { useEffect } from "react";
 export default function Home() {
   useEffect(() => {
     if (isAndroid || isAndroid || isMobile) {
-      location.replace("http://172.20.65.246:3000");
+      location.replace("http://172.20.65.245:3000");
     }
   }, []);
 
   return (
     <main className={styles.main}>
-      <h1>Ini tampilan Web desktop view server 2</h1>
+      <h1>Ini tampilan Web desktop view server 1</h1>
     </main>
   );
 }
